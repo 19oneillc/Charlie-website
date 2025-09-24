@@ -26,18 +26,6 @@ const Index = () => {
   ];
 
   const featuredProjects = [
-    {
-      title: 'E-commerce Platform',
-      description: 'A fully responsive online store with custom product filtering and secure checkout.',
-      image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2940&auto=format&fit=crop',
-      tags: ['E-commerce', 'React', 'Node.js']
-    },
-    {
-      title: 'Portfolio Website',
-      description: 'Minimalist portfolio for a photographer showcasing their work with elegant transitions.',
-      image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=2755&auto=format&fit=crop',
-      tags: ['Portfolio', 'Design', 'Animation']
-    }
   ];
 
   return (
