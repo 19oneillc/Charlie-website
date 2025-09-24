@@ -8,15 +8,17 @@ const Prices = () => {
   const packages = [
     {
       name: 'Simple Design',
-      price: '£50',
-      description: 'A design with your specifications and preferences, no website',
+      price: 'from £150',
+      description: 'A design with your specifications and preferences',
       features: [
-        '£50 per design',
-        'Annotated and clear view',
-        'Including any content specified by you',
-        '2 rounds of revisions'
-      ]
-},
+        '£150 per design',
+        'Annotated and clear plan',
+        'colour palette, complete with hexcodes and colour names'
+        '2 rounds of revisions',
+        'some optional additions'
+      ],
+      highlighted: true
+    },
     
     {
       name: 'Basic Website',
@@ -29,7 +31,7 @@ const Prices = () => {
         'Contact form',
         '2 rounds of revisions',
         '1 month support'
-      ]
+      ],
     },
     {
       name: 'Business Website',
@@ -45,24 +47,9 @@ const Prices = () => {
         '3 rounds of revisions',
         '3 months support'
       ],
-      highlighted: true
+     
     },
-    {
-      name: 'E-commerce Website',
-      price: 'From £1,500',
-      description: 'Full-featured online store for businesses selling products or services.',
-      features: [
-        'Up to 20 pages + product pages',
-        'Responsive design',
-        'E-commerce functionality',
-        'Payment gateway integration',
-        'Product management system',
-        'Order tracking',
-        'Advanced SEO setup',
-        '3 rounds of revisions',
-        '6 months support'
-      ]
-    }
+    
   ];
 
   const services = [
@@ -75,11 +62,6 @@ const Prices = () => {
       name: 'Website Redesign',
       price: 'From £350',
       description: 'Update the look and feel of your existing website with a fresh design.'
-    },
-    {
-      name: 'Website Maintenance',
-      price: '£75/month',
-      description: 'Regular updates, security checks, backups, and minor content changes.'
     },
     {
       name: 'Custom Web Application',
