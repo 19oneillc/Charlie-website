@@ -13,7 +13,7 @@ const Prices = () => {
       features: [
         '£150 per design',
         'Annotated and clear plan',
-        'colour palette, complete with hexcodes and colour names'
+        'colour palette, complete with hexcodes and colour names',
         '2 rounds of revisions',
         'some optional additions'
       ],
